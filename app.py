@@ -70,4 +70,4 @@ api.add_resource(gig_description,"/fiverrseotoolgigdesc/<string:desc>")
 api.add_resource(keyword_rank,"/fiverrseotoolkeyword_rank/<string:keyword>/<string:profile>")
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=8080)
